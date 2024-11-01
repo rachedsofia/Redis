@@ -1,0 +1,96 @@
+/* CompraScreen.css */
+
+.container {
+  padding: 20px;
+  background-color: #f4f6f8; /* Color de fondo suave */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra para el contenedor */
+}
+
+.title {
+  color: #8d6589; /* Color de título */
+  margin-bottom: 20px; /* Espacio inferior */
+  text-align: center; /* Centrar el título */
+}
+
+.card {
+  margin-bottom: 20px; /* Espaciado entre las tarjetas */
+  border-radius: 10px; /* Bordes redondeados */
+  background-color: white; /* Fondo blanco */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra para tarjetas */
+}
+
+.card-title {
+  font-weight: bold; /* Negrita para el título de la tarjeta */
+  color: #8d6589; /* Color de los títulos */
+}
+
+.select {
+  background-color: #e8eaf6; /* Color de fondo para select */
+}
+
+.calculate-button {
+  background-color: #c781ce; /* Color verde para calcular total */
+  color: white; /* Texto blanco */
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+.calculate-button:hover {
+  background-color: #f7a4ff; /* Color al pasar el ratón */
+}
+
+.purchase-button {
+  background-color: #f7a4ff; /* Color rojo para realizar compra */
+  color: white; /* Texto blanco */
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+.purchase-button:hover {
+  background-color: #f7a4ff; /* Color al pasar el ratón */
+}
+
+.total-amount {
+  font-weight: bold; /* Negrita para el total */
+  color: #333; /* Color del texto */
+}
+
+.snackbar {
+  background-color: #f7a4ff; /* Color de fondo para el snackbar */
+}
+
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  width: 400px; /* Ancho del modal */
+  padding: 20px; /* Espaciado interno */
+  background-color: white; /* Fondo blanco */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Sombra del modal */
+  text-align: center; /* Centrar el contenido */
+}
+
+.modal-title {
+  font-weight: bold; /* Negrita para el título del modal */
+  color: #f7a4ff; /* Color del título del modal */
+  margin-bottom: 10px; /* Espacio inferior */
+}
+
+.modal-description {
+  color: #555; /* Color de descripción del modal */
+  margin-bottom: 20px; /* Espacio inferior */
+}
+
+.modal-button {
+  background-color: #f7a4ff; /* Color verde para el botón */
+  color: white; /* Texto blanco */
+  border-radius: 5px; /* Bordes redondeados */
+  padding: 10px 20px; /* Espaciado interno */
+}
+
+.modal-button:hover {
+  background-color: #f7a4ff; /* Color al pasar el ratón */
+}
